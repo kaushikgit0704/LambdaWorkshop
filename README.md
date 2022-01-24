@@ -12,7 +12,7 @@ Example code for the AWS Serverless Lambda Workshop
 npm install -g serverless
 
 # Step 3: Setup serverless
-serverless config credentials --provider aws --key AKIAY4NSZIENZFECYQBA --secret tjl/+CKRUfvFmvosE9UAgrRLxOcW4IySmZp+B8ON --profile serverless-admin
+serverless config credentials --provider aws --key <Key_ID> --secret <secret_value> --profile serverless-admin
 
 # Create project using Serverless
 sls create --template aws-python --path hello-world-py
